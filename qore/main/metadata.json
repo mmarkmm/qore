@@ -1,0 +1,23 @@
+{
+  "name": "QORE",
+  "symbol": "QORE",
+  "description": "QORE: Bridging Today's Reality with Tomorrow's Possibilities through Quantum-Optimized Runtime Environment",
+  "image": "https://raw.githubusercontent.com/mmarkmm/qore/main/assets/logo.svg",
+  "external_url": "https://github.com/mmarkmm/qore",
+  "features": {
+    "quantumResistance": {
+      "enabled": true,
+      "encryptionLevel": "post-quantum",
+      "algorithm": "lattice-based"
+    },
+    "aiOptimization": {
+      "enabled": true,
+      "learningRate": 0.01,
+      "adaptiveScaling": true
+    },
+    "dimensionalProtocol": {
+      "enabled": true,
+      "layers": ["quantum", "classical", "temporal"]
+    }
+  }
+}

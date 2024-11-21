@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="190" fill="#0A0B1E"/>
+  
+  <!-- Quantum orbital rings -->
+  <g transform="rotate(45, 200, 200)">
+    <ellipse cx="200" cy="200" rx="160" ry="80" fill="none" stroke="#2C5DD4" stroke-width="4" opacity="0.6"/>
+    <ellipse cx="200" cy="200" rx="80" ry="160" fill="none" stroke="#4A8CFF" stroke-width="4" opacity="0.6"/>
+  </g>
+  
+  <!-- Core sphere -->
+  <circle cx="200" cy="200" r="60" fill="url(#sphereGradient)"/>
+  
+  <!-- Quantum particles -->
+  <circle cx="280" cy="200" r="15" fill="#7DF9FF"/>
+  <circle cx="120" cy="200" r="15" fill="#7DF9FF"/>
+  <circle cx="200" cy="280" r="15" fill="#7DF9FF"/>
+  <circle cx="200" cy="120" r="15" fill="#7DF9FF"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="sphereGradient">
+      <stop offset="0%" stop-color="#00FFFF"/>
+      <stop offset="100%" stop-color="#2C5DD4"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Text -->
+  <text x="200" y="205" font-family="Arial" font-size="70" font-weight="bold" fill="white" text-anchor="middle">QORE</text>
+</svg>
